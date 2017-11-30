@@ -1,0 +1,324 @@
+/*
+Theme Name:     Divi-Child
+Description:    
+Author:         augustas
+Template:       Divi
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+.yellow-dot{
+	color: #FFDE00 !important;
+}
+
+.button{
+	padding-top: 3px;
+	width: 242px !important ;
+	height: 63px;
+	/*min-width: 242px;
+	max-width: 242px;*/
+
+
+	
+}
+#learn-more{
+	background: rgba(0,0,0, 0.2);
+	border-radius: 3px;
+	border: 3px solid #fff;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;	
+	font-weight: 600;	
+	cursor: pointer;
+}
+#learn-more:hover{  
+	background: rgba(0,0,0, 0.1);
+	transition: 0.4s;
+}
+
+
+#download{
+	background-color: rgb(241,210,4);
+	color: white;
+	font-size: 16px;	
+	font-weight: 600;
+	border-radius: 3px;
+	border: none;
+	font-family: 'Lato', sans-serif;
+	cursor: pointer;
+	
+}
+#download:hover{
+	background-color: #6A4D8A;
+	transition: 0.4s;
+}
+
+
+
+/*dfdsfsfsdfsdf*/
+
+.percentage{
+	position: relative;
+	bottom: 60px;
+	right: 32px;
+	
+
+}
+.percent{
+	
+	height:29px;
+	width:64px;
+	font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    font-family: Lato;
+    border-radius: 3px;
+    text-align: center;
+    
+    margin-right: 100% !important;
+}
+.param-typography{
+	margin-left: 60%;
+}
+.param-design{
+	margin-left: 82%;
+}
+.param-development{
+	margin-left: 86%;
+}
+.typography-percent{
+	background-color: #F18B6D;	
+}
+.design-percent{
+	background-color: #F1D204;
+}
+.development-percent{
+	background-color: #6A4D8A;
+}
+.triangle{
+
+	width: 0; 
+  	height: 0; 
+  	border-left: 5px solid transparent;
+  	border-right: 5px solid transparent;
+  	position: relative;
+  
+  	left:26px;
+
+  	
+  	
+}
+.typography-triangle{
+	border-top: 5px solid #F18B6D;
+
+}
+.design-triangle{
+	border-top: 5px solid #F1D204;
+}
+.development-triangle{
+	border-top: 5px solid #6A4D8A;
+}
+
+.grey-line{
+	height: 2px;
+	width: 100%;
+	background-color:#EBEBEB;
+}
+.colored-line{
+	height: 4px;
+	position: relative;
+	top: -1px;
+}
+.colored-line-typography{
+	width: 60%;	
+	background-color: #F18B6D;	
+}
+.colored-line-design{
+	background-color: #F1D204;
+	width: 82%;
+}
+.colored-line-development{
+	background-color: #6A4D8A;
+	width:86%;
+}
+.bubble{
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	position: relative;
+	top: -7.5px;
+	right: 4.5px;
+	
+}
+
+.bubble-typography{
+	background-color: #F18B6D;
+
+	
+}
+.bubble-design{
+	background-color: #F1D204;
+}
+.bubble-development{
+	background-color: #6A4D8A;
+}
+.skill-name{
+	margin-top:25px;
+	
+}
+.skill-symbol{
+	padding-top: 5px;
+}
+.skill{	
+    line-height: 26px;
+    font-size: 16px;
+    font-family: Lato;
+}
+.skill-typography{
+	color:#F18B6D;
+}
+.skill-design{
+	color:#F1D204;
+}
+.skill-development{
+	color:#6A4D8A;
+}
+.skills{
+	margin-top: 38px;
+}
+
+
+.projects{
+	display: flex;
+}
+.project{
+	padding: 0 !important;
+	
+}
+.projects-section{
+	background-image: url(../images/front-page/pattern.png);
+	background-repeat: repeat !important;
+	background-size: auto !important;
+
+}
+.project-photo{
+	max-width: 100%;
+	width: auto;
+	height: auto;
+
+}
+.project-photo:hover{
+	opacity: 0.7;
+	transition: 0.2s;
+}
+.testimonials-section{
+	padding-top: 58px;
+	background-image: url(../images/testiomnials-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.text-white{
+	color: white;
+}
+.testimonials-photo{
+
+	height: 127px;
+	width: 127px !important;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.carousel-inner{
+
+	position: relative;
+	padding-bottom: 50px;
+}
+.owl-carousel{
+	margin-top: 40px;
+}
+.carousel-item{
+	margin: 0 auto;
+	
+}
+.owl-dot span{
+	background-color: white !important;
+	opacity: 1 !important;
+}
+.owl-dot span:hover{
+	background-color: transparent !important;
+	border: 1px solid white !important;
+	transition: 0.4s !important;
+}
+.owl-dots .active span{	
+	background-color: transparent !important;
+	border: 1px solid white !important;
+}
+.quote{
+	position: relative;
+	padding: 50px 35px 25px;
+	width: 100%;
+	background-color: #6A4D8A;
+	margin-bottom: 48px;
+	font-size: 16px;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 26px;
+}
+h6{
+	font-size: 20px !important;
+    line-height: 24px !important;
+    font-weight: 700 !important;
+    font-family: Poppins !important;	
+}
+.arrow{
+	position: absolute;
+	bottom: -19px;
+	left: 515px;
+
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;	 
+	border-top: 20px solid #6A4D8A;
+	justify-content: center;
+}
+q{
+	color:white;
+}
+h6{
+	color: white;
+}
+.services-icon {
+	font-size: 35px !important;
+}
+.services-icon-pencil, .services-name-design{
+	color:#F18B6D;
+	
+}
+.services-icon-code, .services-name-development{
+	color:#F1D204;
+	
+}
+.services-icon-search, .services-name-analysis{
+	color:#755A93;
+	
+}
+.services-name{
+	font-size: 23px;
+	    font-weight: 700;
+    font-family: Poppins;
+}
+@media(max-width: 991px){
+	.et_pb_row_2{
+		display: flex;
+		flex-direction: column;
+
+	}
+}
+
+@media(max-width: 768px){
+	h1{
+		font-size: 50px !important;
+		line-height: 54px !important;
+	}	
+}

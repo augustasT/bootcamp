@@ -1,0 +1,159 @@
+
+/*START OF RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*END OF RESET*/
+
+body{	
+	width: 100%;
+}
+#home{
+	margin-top: -4px;
+	background-image: url('../images/front-page/front-page-header.jpg');
+	height: 1000px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.jumbotron{
+
+	text-align: center;
+}
+#header{
+	width: 100%;	
+}
+#navbar{
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	margin: 0px 73px;
+	margin-top: -20px;
+	line-height: 26px;
+	letter-spacing:0.5px;
+}
+
+nav{
+	float: right;
+	width: 75%;
+	margin-top: 15px;
+	margin-right: -150px;
+	
+	
+}
+#logo{
+	width: 155px;
+	float: left;
+}
+.navbar-brand{
+	color: white !important;
+}
+.nav-item>a{
+	padding-left: 33px !important;
+	color: white !important;
+}
+.nav-item:hover>a{
+	color: #FBDB07 !important;
+}
+.home-text{
+	margin-top: 300px;
+}
+#moto-text{
+	color: white;
+	text-shadow: 0px 0px  #fff;
+	letter-spacing:2px;
+	font-weight:bold;
+	font-size: 80px;
+	line-height: 84px;
+	font-family: 'Poppins', sans-serif;
+
+}
+.yellow{
+	color: yellow;
+	text-shadow: 0px 0 yellow;
+}
+.lead{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	width: 65%;
+	margin: auto;	
+}
+#lead{
+	font-size: 16px;
+}
+#buttons{
+	margin-top:50px;
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.main-button{
+	height: 63px;
+	border-radius: 3px;
+	width: 250px;
+	color: white;
+	cursor: pointer !important;
+
+}
+.transparent-button{
+	float:left;
+	border: 2px solid white !important;
+	background: rgba(0, 0, 0, 0.2); !important;
+	font-weight: 700 !important;
+
+
+}
+.yellow-button{
+	float: right;
+	background-color: #F1D204;
+	font-weight: 700 !important;
+}
+
+.transparent-button:hover{
+	background: rgba(0, 0, 0, 0.1);
+
+}
+.yellow-button:hover{
+	background-color: #6A4D8A;	
+}

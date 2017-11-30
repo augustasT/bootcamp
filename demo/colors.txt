@@ -1,0 +1,11 @@
+header: #222327
+navbar: #ffffff
+oranzine: #ff7e00
+zydra: #51c2de
+tamsiai melyna: #ff7e00
+footer: #2f3036
+gradient: #ff7a00 - #ff5a00
+form: #d6d6d6
+dark text: #8e8e8e
+header text: #555557
+footer text: #999999

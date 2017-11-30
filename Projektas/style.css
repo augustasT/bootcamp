@@ -1,0 +1,538 @@
+
+/* General */
+
+body {
+  background: #fff;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+}
+
+a {
+  color: #2dc997;
+}
+
+a:hover, a:focus {
+  color: #4777e6;
+  outline: none;
+  text-decoration: none;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+/* Navigation bar */
+
+img.logo {
+	height: 70px;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	z-index: 10;
+
+}
+
+.navbar-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+#logo-logo > header > nav {
+	margin-bottom: 0;
+}
+
+div.navbar-header {
+	height: auto;
+	width: auto;
+}
+
+.navbar {
+	border: none;
+	border-radius: 0;
+	background-color: #fff;
+}
+
+a.navbar-brand {
+	width: auto;
+	height: auto;
+}
+
+.navcenter {
+	height: auto;
+}
+
+.nav-list {
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.navbar-default .navbar-nav > li > a:active {
+    color: red;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #4777e6;
+    background: none;
+    transition: .4s all ease-in-out;
+}
+
+
+
+/* Home section */
+
+.main-section {
+	background: url(images/hero-bg.jpg) top center fixed;
+	width: 100%;
+	padding-top: 150px;
+	padding-bottom: 50px;
+}
+
+.main-section h2{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 600;
+    padding-top: 25px;
+    line-height: 1.2;
+    font: 'Raleway';
+}
+
+.main-section p{
+    font-size: 18px;
+    font: ;
+    color: #ffffff;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.main-section .btn{
+	font-size: 17px;
+	font-style: normal;
+	background: #fff;
+	border: 1px solid #fff;
+	letter-spacing: 2px;
+	padding: 12px 25px 12px;
+	margin-bottom: 80px;
+	margin-right: 5px;
+}
+
+.main-section .btn_blue {
+	background: none;
+	color: white;
+}
+
+}
+.main-section .btn:hover{
+    background: #ffffff;
+    color: #000000 !important;
+    border-color: #ffffff;
+}
+.main-section .shr-download-btn{
+    background: none;
+    border: 1px solid #ffffff;
+}
+
+.intro_1 {
+	font: sans-serif;
+
+}
+
+.intro {
+
+}
+
+.btn {
+
+
+}
+
+.iphone_1 {
+	display: block;
+}
+
+.iphone_1 img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+/* Global */
+
+.section-title-blue {
+	color: #4776e6;
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.section-title-white {
+	color: white;
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.section-tagline {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Overview section */
+
+#about {
+}
+
+.overview {
+	display: block;
+	background-color: #f6f6f6;
+	width: 100%;
+	padding-top: 80px;
+	text-align: center;
+}
+
+.overview h3 {
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+.center {
+	margin: 0 auto;
+	display: block;
+	clear: both;
+}
+
+
+.box-white {
+	background: white;
+	padding: 60px;
+}
+
+.overimg {
+	padding: 20px
+}
+
+.box {
+	width: 100%;
+}
+
+.box-gray  {
+	background: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 80px;
+}
+
+.box-gray h4 {
+	margin-bottom: 20px;
+	font-weight: 600;
+	color: #585858;
+}
+
+.icon {
+    margin: 10px 10px 10px 0;
+}
+
+
+
+
+
+/* How it works section */
+
+.iphone1 {
+	display: block;
+	position: absolute;
+	z-index: 3;
+	align-content: flex-start;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.iphone2 {
+	display: block;
+	position: relative;
+	z-index: 2;
+	top: 40px;
+	left: 120px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.how-it-works-img {
+	display: block;
+}
+
+.how-it-works-section {
+	background-color: #fff;
+	width: 100%;
+	padding: 120px 0 0px;
+	padding-bottom: 50px;
+}
+
+.how-it-works-content {
+    position: relative;
+    margin-bottom: 60px;
+    text-align: right;
+}
+
+.how-it-works-content h4 {
+	margin-bottom: 20px;
+	font-weight: 600;
+	color: #585858;
+}
+
+.how-it-works-content p {
+	color: #585858;
+	font-weight: 300;
+}
+
+
+
+
+
+/* Features section */
+
+.features-section {
+	background-color: #4777e6;
+	width: 100%;
+	padding: 80px 0px 20px;
+	position: relative;
+}
+
+.features-section p {
+	color: white;
+}
+
+.features-section h4 {
+	color: white;
+}
+
+.features-img {
+	width: 100%;
+}
+
+.features-img img{
+	display: block;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.left-features-text{
+    text-align: right;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.left-features-text i{
+    font-size: 55px;
+    color: white;
+    margin-bottom: 30px;
+}
+.left-features-text p{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.right-features-text{
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.right-features-text i{
+    font-size: 55px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.right-features-text p{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* Screenshots section */
+
+.screenshots {
+	background-color: #f6f6f6;
+	width: 100%;
+	padding: 120px 0px 120px;
+}
+
+.carousel-inner {
+	margin: 0 auto;
+}
+
+.carousel-indicators {
+	margin-bottom: -60px;
+}
+
+/* Video section */
+
+.video-section {
+	background-color: #4777e6;
+	width: 100%;
+	padding: 120px 0px 120px;
+}
+
+/* Pricing section */
+
+.pricing-section {
+	background-color: #f6f6f6;
+	width: 100%;
+	padding: 120px 0px 70px;
+}
+
+.pricing-section .table-col {
+	margin-bottom: 50px;
+	text-align: center;
+	background-color: rgba(0,0,0,.005);
+	border: 1px solid #e4e9ee;
+}
+
+.pricing-section .table-heading {
+	background-color: #4777e6;
+	padding: 35px;
+}
+
+.pricing-section .table-heading{
+	color: white;
+}
+
+
+.pricing-section .list-group {
+	list-style-type: none;
+	padding: 30px 30px 0px 30px;
+}
+
+.table-col .list-group .list-group-item{
+	padding: 15px;
+	border: none;
+	border-top: 1px solid #e4e9ee;
+}
+
+.table-col .table-footer {
+	background: #4777e6;
+	color: white;
+	cursor: pointer;
+	margin: 0 auto;
+	font-size: 15px;
+	display: block;
+	padding: 10px 30px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+/* Subscribe section */
+
+.subscribe-section {
+	background-color: #4777e6;
+	width: 100%;
+	padding: 120px 0px 120px;
+}
+
+.subscribe-section .btn{
+	border: none;
+	background-color: #4777e6;
+}
+
+.subscribe-section .sub-title {
+	color: white;
+}
+
+.subscribe {
+	display: flex;
+	margin: 20px;
+	background-color: #34539f; 
+	align-items: center;
+	padding: 15px 0;
+	border-radius: 20px;
+}
+
+.newsletter {
+	color: white;
+	font-size: 25px;
+}
+
+
+
+/* Contact section */
+
+
+.contact-section {
+	width: 100%;
+	padding: 120px 0px 120px;
+	background-color: rgba(239, 239, 239, 0.5);
+	background: url(images/globe_map.jpg);
+	background-size: cover;
+}
+
+.contact-section .btn{
+	width: 30%;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.contact-section .form-control {
+	opacity: 0.9;
+	margin-bottom: 5px;
+	min-height: 50px;
+	resize: none;
+}
+
+/* Footer section */
+
+.footer-area{
+    width: 100%;
+    padding: 100px 0px 20px;
+    background-color: #222222;
+    color: white;
+}
+
+.fcolumn {
+	display: flex;
+	flex-direction: column;
+}
+
+.social a {
+	color: #4777e6;
+	font-size: 25px;
+	letter-spacing: 20px;
+}
+
+.map {
+	display: block;
+	width: auto;
+	height: auto;
+}
+
+.address-sub {
+	color: #4777e6;
+	font-size: 18px;
+
+}
+
+.contacts-section p, a {
+	color: white;
+
+}

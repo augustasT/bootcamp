@@ -1,0 +1,618 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of reset code */
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5 h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+h5 {
+    font-size: 13px;
+}
+
+.container {                /* turinį centruojame */
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* TOP-HEADER */
+.top-header {               /* Visai top-header klasei priskiriame juodą foną. */
+    background-color: #000;
+}
+
+.top-header-container {     /* keičiame šriftą, jo dydį, viršuje ir apačioje pridedame po 10px  */
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-between !important;
+
+}
+
+.top-header ul li {         /* top-header turinį išdėstome vienoje eilutėje. */
+    display: inline;
+}
+
+.top-header a {             /* top-header naikiname liniją po tekstu, nuorodų spalvą keičiame į pilką. */
+    text-decoration: none;
+    color:lightgrey;
+}
+
+.top-header a:hover {       /* užvedus su pele, tekstas keičia spalvą į baltą. */
+    text-decoration: none;
+    color:#fff;
+}
+
+.contact-header {           /* contact-header turinį stumiame į kairįjį kraštą. */
+/*    float:left;
+*/}
+
+.contact-header li {        /* contact-header padidiname tarpą tarp sąrašo vaikų. */
+    padding-right: 15px;
+}
+
+.social-header {            /* social-header turinį stumiame į dešinįjį kraštą. */
+    /*float:right;*/
+}
+
+.social-header li {         /* social-header padidiname tarpą tarp sąrašo vaikų. */
+    padding-left: 10px;
+}
+/* END OF TOP-HEADER */
+
+/* NAV-HEADER */
+.nav-header {
+    background-color: #fff;   
+}
+
+.nav-header-container {     /* nav-header turinį centruojame + keičiame šrifto dydį, viršuje ir apačioje pridedame po 30px  */
+    padding: 30px 0;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    justify-content: space-between !important;
+    padding-right: 0!important;
+}
+
+.nav-header ul li {         /* nav-header turinį išdėstome vienoje eilutėje. */
+    display: inline;
+}
+
+.nav-header a {             /* nav-header naikiname liniją po tekstu, nuorodų spalvą keičiame į pilką. */
+    text-decoration: none;
+    color:lightgrey;
+}
+
+.nav-header a:hover {       /* užvedus su pele, tekstas keičia spalvą į baltą. */
+    text-decoration: none;
+    color:darkorange;
+}
+
+.logo {           /* logo turinį stumiame į kairįjį kraštą, pastumiame šiek tiek nuo krašto. */
+    /*float:left;*/
+    margin-left: 15px;
+}
+
+.nav {            /* meniu turinį stumiame į dešinįjį kraštą, pastumiame šiek tiek nuo krašto. */
+    /*float:right;*/
+    margin: 10px 15px 0 0;
+}
+
+.nav li {         /* meniu padidiname tarpą tarp sąrašo vaikų. */
+    padding-left: 25px;
+}
+/* END OF NAV-HEADER */
+
+/* BANNER */
+.banner {
+    background-image: url("../images/bg-banner.jpg");
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-content {
+    padding: 150px 0;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    flex-wrap: wrap;
+}
+
+.banner-content h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;  
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+.banner-content h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #fff;
+}
+
+.banner-content p {
+    color: #c9c9c9;
+    margin: 0 auto;
+    line-height: 1.5;
+    width: 35%;
+}
+
+button.btn-solid {
+    margin-top: 40px;
+    background-color: #ff7e00;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+/* END OF BANNER */
+/* SEO */
+
+.seo {
+    width: 100%;
+    background: linear-gradient(90deg, #f3f3f3 50%, #56c2db 50%);
+}
+
+.seo p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.seo-form {
+    width: 40%;
+    /*float: left*/;
+    padding: 40px 50px;  
+    text-align: center;
+}
+
+.seo-form h2, .seo-form p {
+    margin-bottom: 20px;
+}
+
+p.seo-form-intro{
+    color:#999;
+}
+
+.seo-form form {
+    max-width: 400px;
+    margin: 40px auto 0;   
+}
+
+.seo-form input[type=text], .seo-form input[type=email], .seo-form input[type=tel] {
+    display: block;
+    width: 94%;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+    background-color: #dcdcdc;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.seo-form input[type=submit] {
+    margin-top: 30px;
+    background-color: #56c2db;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.seo-info {
+     width: 40%;
+    /*float: right;*/
+    color: #fff;
+    padding: 40px 50px;
+}
+
+p.seo-info-intro {
+    margin-bottom: 18px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "Raleway", sans-serif;
+}
+
+.seo-info img {
+    display: block;
+    margin: 0 auto 30px;
+}
+/* END OF SEO*/
+
+/* START OF BLURB */
+.blurb {
+    background-color: #222327;
+    position: relative;
+}
+
+.blurb:after { /* trikampiukas */
+    content: "";
+    border-color: #222327 rgba(136, 183, 213, 0) rgba(136, 183, 213, 0);
+    border-style: solid;
+    border-width: 20px;
+    left: 50%;
+    margin-left: -20px;
+    position: absolute;
+    top: 100%;
+    width: 0;
+}
+
+.blurb h3 {
+    font-size: 20px;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+/* END OF BLURB */
+
+/* START OF RESPONSIVE - SECURITY */
+.responsive-security {
+    background-color: #ff7e00;
+}
+
+.responsive-security p {
+    font-size: 12px;
+    padding: 20px 0;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.responsive-security h4 {
+    color: #fff;
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+.responsive, .security {
+    width: 40%;
+    padding: 40px 50px;  
+    text-align: center;
+}
+
+.responsive {
+    /*float: left;*/
+}
+
+.security {
+    /*float: right;*/
+}
+
+.security img {
+    margin-bottom: 12px;
+}
+
+button.btn-transparent {
+    margin-top: 20px;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 200;
+    cursor:pointer;
+}
+/* END OF RESPONSIVE - SECURITY */
+
+
+
+/* START OF STRATEGY */
+.strategy {
+    width: 100%;
+    background: linear-gradient(90deg, #56c2db 50%, #123853 50%);
+    color: #fff;
+  /*  display: flex;*/
+   
+   
+
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+.strategy-image {
+    width: 50%;
+    padding: 40px 0;
+    
+    /*float: left;*/
+}
+.strategy-image img {
+    margin-right: 50px;
+}
+.strategy-info {
+    width: 40%;
+    padding: 60px 50px 0 0;
+    /*float: right;*/
+}
+.strategy h4 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.strategy-item{
+    display: inline-flex;
+
+}
+.strategy-info p {
+    font-size: 14px; 
+    line-height: 1.5;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 25px;
+    
+
+}
+.strategy-item .col {
+   /* float: left;*/
+    width: 47%;
+}
+.strategy-col-item {
+    padding-top: 35px;
+    display: inline-flex;
+
+}
+.strategy-item-col1 {
+    margin-right: 20px;  
+
+
+}
+.strategy-col-item .fa {
+    /*float: left;*/
+    margin-right: 10px;
+    font-size: 20px;
+}
+.strategy-col-item p {
+    border: none;
+    padding: 15px 0 0 10px;
+    font-size: 12px;
+}
+/* END OF STRATEGY */
+
+
+/* START OF TESTIMONIAL */
+.testimonial {
+    background-image: url('../images/bg-testimonial.jpg');
+    background-repeat: no-repeat;
+    background-position:  left top;
+    text-align: center; 
+    color: #fff;
+}
+.testimonial .overlay {
+    background: rgba(153, 153, 153, 0.7);
+}
+.testimonial-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 100px 20px;
+}
+.client-name {
+    margin: 30px 0;
+    font-weight: 600; 
+}
+.img-place-holder {
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #ccc;
+    display: block;
+    margin: 0 auto;
+}
+.testimonial-text {
+    font-size: 12px;
+    line-height: 1.5;
+}
+/* END OF TESTIMONIAL */
+/* START OF GET STARTED */
+.get-started {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ff7900, #ff5a00); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff7900, #ff5a00); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff7900, #ff5a00); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff7900, #ff5a00); /* Standard syntax */
+}
+.get-started .container {
+    padding: 50px 0;
+    
+}
+.get-started h3 {
+    /*float: left;*/
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.get-started button {
+    /*float: right;*/
+    margin-top: 0;
+    border-radius: 3px;
+    cursor:pointer;
+}
+.get-started-container{
+    display: flex;
+    justify-content: space-between;
+    }
+/* END OF GET STARTED */
+/* START OF FOOTER */
+footer {
+    background: #333;
+}
+.footer-col{
+    display: flex;
+}
+.footer-top {
+    padding: 50px 0;
+}
+.footer-top .footer-top-item {
+/*    float: left;
+*/    width: 24%;
+}
+.footer-top h5 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col{
+    width: 100%;
+}
+.footer-top ul {
+    list-style-type: disc;
+    margin-left: 16px;
+    color: #fff;
+}
+.footer-top ul li {
+    padding: 0 0 10px;
+}
+.footer-top ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+.footer-top ul li:hover > a {
+    color: #ff7900;
+}
+.footer-top input[type=email] {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    color: #999;
+}
+.footer-top input[type=submit] {
+    margin-top: 30px;
+    background-color: #ff7e00;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.footer-bottom {
+    background-color: #222;
+    padding: 20px 0;
+
+}
+.footer-bottom .container{
+    justify-content: space-between;
+}
+.social-media-icons {
+   /* float: left;*/
+}
+.social-media-links li {
+    display: inline-block;
+}
+.social-media-links li a {
+    color: #fff;
+}
+.copyright {
+    /*float: right;*/
+    color: #fff;
+    font-size: 12px;
+}
+/* END OF FOOTER */
+
+/* START OF RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 768px) {
+    html {
+        width: 100%;
+    }
+    
+    .seo .container {
+        max-width: 100%;
+        background: #fff;
+    }
+    
+    .seo-form, .seo-info {
+        width: 100%;
+        /*float: none;*/
+        padding: 40px 0;
+    }
+    
+    .seo-form {    
+        background: #f3f3f3;    
+    }
+    
+    .seo-info {
+        background: #56c2db;
+    }
+    
+    .seo p {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}

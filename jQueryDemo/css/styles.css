@@ -1,0 +1,9 @@
+button{
+	background-color: #888;
+}
+input[type="text"]{
+	border: 1px solid #000;
+}
+.menu{
+	background-color:grey;
+}

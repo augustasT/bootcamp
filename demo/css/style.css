@@ -1,0 +1,105 @@
+/*START OF RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*END OF RESET*/
+
+
+/*START OF TOP HEADER*/
+body{
+	font-family: "Open Sans", sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: "Raleway", sans-serif;
+}
+h2{
+	font-size: 30px;
+}
+h4{
+	font-size: 16px;
+	font-weight: 400px;
+}
+h5{
+	font-size: 13px;
+}
+.container{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.top-header{
+	background-color: #000;
+}
+.top-header-container{
+	padding:10px 0;
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+}
+.top-header ul li{
+	display: inline;
+}
+.top-header a{
+	text-decoration: none;
+	color: lightgrey;
+}
+.top-header a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.contact-header{
+	float:left;
+}
+.contact-header li{
+	padding-right: 15px;
+}
+.social-link-header{
+	float: right;
+}
+.social-link-header li{
+	padding-left: 10px;
+}
+/*END OF TOP-HEADER*/
+
+
+/*START OF NAV-HEADER*/
+
+/*END OF NAV-HEADER*/

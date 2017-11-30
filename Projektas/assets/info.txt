@@ -1,0 +1,14 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Roboto" rel="stylesheet">
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+#4777e6 blue main
+#547fe4 div
+#4776e6 div
+
+
+#222222 black
+#303030 black for typography
+#f6f6f6 grey

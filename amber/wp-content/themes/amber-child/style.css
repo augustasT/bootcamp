@@ -1,0 +1,172 @@
+/*
+Theme Name:     Amber-Child
+Description:    
+Author:         augustas
+Template:       Divi
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+#top-menu-nav > ul > li > a:visited {
+	color: #fff;
+}
+
+p.amber-fc-banner_link a {
+	background-color: #222;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 5px 20px;
+	font-size: 18px;
+}
+
+.et_pb_posts a.more-link {
+    	display: inline-block;
+	background-color: #ac1d53;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px 20px;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.et-search-form, .nav li ul, .et_mobile_menu, .footer-widget li::before, blockquote {
+    	border-color: #ac1d53;
+}
+
+/* WOOCOMMERCE */
+
+.woocommerce #respond input#submit.disabled, .woocommerce #respond input#submit:disabled, .woocommerce #respond input#submit[disabled]:disabled, .woocommerce a.button.disabled, .woocommerce a.button:disabled, .woocommerce a.button[disabled]:disabled, .woocommerce button.button.disabled, .woocommerce button.button:disabled, .woocommerce button.button[disabled]:disabled, .woocommerce input.button.disabled, .woocommerce input.button:disabled, .woocommerce input.button[disabled]:disabled {
+	color: #222 !important;
+    	opacity: 1 !important;
+}
+
+.woocommerce-cart-form input.button[type="submit"]:hover {
+	color: #fff !important;
+}
+
+.woocommerce input#place_order[type="submit"] {
+	color: #222;
+	
+}
+
+.woocommerce input#place_order[type="submit"]:hover {
+	color: #fff;
+}
+
+.woocommerce h3#order_review_heading {
+	padding-top: 20px;
+}
+
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+    	width: 100%;
+}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product, .woocommerce-product-gallery__image {
+	border: 3px solid #ebebeb;
+}
+
+.woocommerce-LoopProduct-link {
+	text-align: center;
+}
+
+.woocommerce-LoopProduct-link h2.woocommerce-loop-product__title {
+	font-size: 1.5rem !important;
+	font-weight: bold;
+	background-color: #ac1d53;
+	color: #fff;
+}
+
+.woocommerce-LoopProduct-link span.price {
+	font-size: 1rem !important;
+	font-weight: bold;
+	background-color: #ac1d53;
+	padding-bottom: 15px;
+}
+
+.woocommerce-LoopProduct-link span.woocommerce-Price-amount {
+	color: #fff !important;
+	
+}
+
+.et_pb_gutters3 .et_pb_column_4_4 .et_pb_grid_item, .et_pb_gutters3 .et_pb_column_4_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item, .et_pb_gutters3 .et_pb_column_4_4 .et_pb_widget, .et_pb_gutters3 .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_grid_item, .et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item, .et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_widget, .et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_pb_gutters3 .et_full_width_page.woocommerce-page ul.products li.product {
+	margin: 0 3% 5.5% 0;
+	width: 30%;
+}
+
+.woocommerce div.product .product_title {
+	font-weight: bold;
+}
+
+
+/* WIDGET AREA */
+
+.et_pb_widget_area h4 {
+	background-color: #222222;	
+	padding-bottom: 0;
+	padding: 15px;
+	margin-bottom: 15px;
+	color: #fff;
+	font-size: 25px;
+}
+
+.et_pb_widget_area ul.amber-fc-list {
+	border-bottom: solid 1px #ccc;
+}
+
+
+.et_pb_widget_area ul.amber-fc-list li {
+	display: inline-block;
+	width: 10%;
+	padding: 5px 0 0;
+	border-bottom: #ccc;
+}
+
+.et_pb_widget_area ul.amber-fc-list li.col-first {
+	width: 65%;
+	padding: 10px 0 0;
+}
+
+.et_pb_widget_area .game {
+	margin-bottom: 15px;
+}
+
+.et_pb_widget_area .game-item li {
+	display: inline-block;
+	padding: 5px 0;
+	width: 32.5%;
+	background-color: #ac1d53;
+	text-align: center;
+	color: #fff;
+
+}
+
+.et_pb_widget_area .game-team li {
+	width: 80%;
+	display: inline-block;
+	margin-bottom: 0;
+	padding: 5px;
+}
+
+.et_pb_widget_area .game-team-1 li.col-score {
+	background-color: #ebebeb;
+	width: 14%;
+	text-align: center;
+}
+
+.et_pb_widget_area .game-team-2 li.col-score {
+	background-color: #ccc;
+	width: 14%;
+	text-align: center;
+}
+
+/* FOOTER WIDGET */
+
+#footer-bottom {
+	display: none;
+}
+
+.footer-widget h4 {
+	font-weight: bold;
+	color: #ac1d53;
+	border-bottom: 2px solid #fff;
+	margin-bottom: 15px;
+}
